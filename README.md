@@ -63,4 +63,4 @@ The code below shows the sample implementation of the component. Please make sur
 The project is powered by AFrame and Three.js. 
 
 ### **Demo**
-See demo of the component here: [Demo](https://volumetric-vid.glitch.me/)
+See demo of the component here: [Demo](https://spotlight-texture.glitch.me/)
