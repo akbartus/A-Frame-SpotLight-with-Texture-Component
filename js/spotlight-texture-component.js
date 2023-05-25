@@ -26,7 +26,12 @@ AFRAME.registerComponent('spotlight-texture', {
         videoElement.type = 'video/mp4';
         videoElement.src = this.data.videoTextureSrc;
         videoElement.autoplay = true;
+        videoElement.muted = true; // remove this if necessary
+        videoElement.loop = true;
+        videoElement.playsInline = true;
         document.body.appendChild(videoElement);
+        videoElement.play();
+    
         let videoTexture = new THREE.VideoTexture(videoElement);
         
         if (this.data.spotlightShadow == true) {
