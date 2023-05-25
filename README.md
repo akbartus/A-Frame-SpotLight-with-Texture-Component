@@ -1,5 +1,6 @@
 # A-Frame-Spotlight-with-Texture-Component
 <img src="img/screenshot.gif" title="Video screen capture" alt="Video screen capture" height="400">
+<img src="img/screenshot2.gif" title="Video screen capture" alt="Video screen capture" height="300">
 
 ### **Description / Rationale**
 This is an A-Frame component, which demonstrates spotlight with texture. It can also be called as a projected texture component because texture is dynamically projected on mesh surfaces. The component was created based on the works by Marco Fugaro named <a href="https://github.com/marcofugaro/three-projected-material">Three Projected Material</a>, <a href="https://github.com/marcofugaro/codrops-texture-projection">Codrops Texture Projection</a> as well as Spotlight example provided in <a href="https://threejs.org/examples/#webgl_lights_spotlight">Three.js library</a>.     
