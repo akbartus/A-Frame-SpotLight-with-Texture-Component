@@ -1,4 +1,4 @@
-# A-Frame-SpotLight-with-Texture-Component
+# A-Frame-Spotlight-with-Texture-Component
 <img src="img/screenshot.gif" title="Video screen capture" alt="Video screen capture" height="400">
 
 ### **Description / Rationale**
