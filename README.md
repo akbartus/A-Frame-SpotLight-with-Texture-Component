@@ -7,19 +7,19 @@ This is an A-Frame component, which demonstrates spotlight with texture. It can 
 ### **Instructions**
 In order to use the component attach "spotlight-texture" to "a-scene". The component has the following attributes: 
 * lightHelper: { type: 'boolean', default: true } - spotlight helper. It helps to see the location and direction of spotlight in the scene.
-spotlightShadow: { type: 'boolean', default: false } - enables or disables shadow of 3d objects. Requires that objects in scene have "shadow='cast: true'" attribute.
-spotlightDynamic: { type: 'boolean', default: false } - Adds spotlight animation (movement). If disabled, spotlight becomes static. 
-spotlightColor: { type: 'color', default: '#ffffff' } - The color of the spotlight.
-spotlightIntensity: { type: 'float', default: 10 } - Intensity of the spotlight.
-spotlightDistance: { type: 'float', default: 100 } - Distance of the spotlight.
-spotlightAngle: { type: 'float', default: 0.5 } - Angle of the spotlight. Accepts float values from 0.0 to 1.0
-spotlightPenubra: { type: 'float', default: 1 } - Penumbra of the spotlight.
-spotlightDecay: { type: 'float', default: 2 } - Decay of the spotlight.
-spotlightFocus: { type: 'float', default: 1 } - Focus(size) of the spotlight.
-spotlightPosition: { type: 'vec3', default: { x: 10, y: 35, z: 10 } } - Position of the spotlight.
-imgTexture: { type: 'boolean', default: true } - If enabled projects image texture over objects in scene. If disabled projects video over objects in scene. 
-imgTextureSrc: { type: 'string', default: '' } - Source/URL of image texture.
-videoTextureSrc: { type: 'string', default: '' } - source/URL of video texture.
+* <b>spotlightShadow: { type: 'boolean', default: false } - enables or disables shadow of 3d objects. Requires that objects in scene have "shadow='cast: true'" attribute.
+* <b>spotlightDynamic: { type: 'boolean', default: false }</b> - Adds spotlight animation (movement). If disabled, spotlight becomes static. 
+* <b>spotlightColor: { type: 'color', default: '#ffffff' }</b> - The color of the spotlight.
+* <b>spotlightIntensity: { type: 'float', default: 10 }</b> - Intensity of the spotlight.
+* <b>spotlightDistance: { type: 'float', default: 100 }</b> - Distance of the spotlight.
+* <b>spotlightAngle: { type: 'float', default: 0.5 }</b> - Angle of the spotlight. Accepts float values from 0.0 to 1.0
+* <b>spotlightPenubra: { type: 'float', default: 1 }</b> - Penumbra of the spotlight.
+* <b>spotlightDecay: { type: 'float', default: 2 }</b> - Decay of the spotlight.
+* <b>spotlightFocus: { type: 'float', default: 1 }</b> - Focus(size) of the spotlight.
+* <b>spotlightPosition: { type: 'vec3', default: { x: 10, y: 35, z: 10 } }</b> - Position of the spotlight.
+* <b>imgTexture: { type: 'boolean', default: true }</b> - If enabled projects image texture over objects in scene. If disabled projects video over objects in scene. 
+* <b>imgTextureSrc: { type: 'string', default: '' }</b> - Source/URL of image texture.
+* <b>videoTextureSrc: { type: 'string', default: '' }</b> - source/URL of video texture.
 
 The code below shows the sample implementation of the component. Please make sure to disable default lights in scene so that the component takes over (light="defaultLightsEnabled: false"):
 ```
