@@ -14,7 +14,7 @@ In order to use the component attach "spotlight-texture" to "a-scene". The compo
 * <b>spotlightIntensity: { type: 'float', default: 10 }</b> - Intensity of the spotlight.
 * <b>spotlightDistance: { type: 'float', default: 100 }</b> - Distance of the spotlight.
 * <b>spotlightAngle: { type: 'float', default: 0.5 }</b> - Angle of the spotlight. Accepts float values from 0.0 to 1.0
-* <b>spotlightPenubra: { type: 'float', default: 1 }</b> - Penumbra of the spotlight.
+* <b>spotlightPenubra: { type: 'float', default: 1 }</b> - Penubra of the spotlight.
 * <b>spotlightDecay: { type: 'float', default: 2 }</b> - Decay of the spotlight.
 * <b>spotlightFocus: { type: 'float', default: 1 }</b> - Focus(size) of the spotlight.
 * <b>spotlightPosition: { type: 'vec3', default: { x: 10, y: 35, z: 10 } }</b> - Position of the spotlight.
@@ -61,7 +61,7 @@ The code below shows the sample implementation of the component. Please make sur
 ```
 
 ### **Tech Stack**
-The project is powered by AFrame and Three.js. 
+The project is powered by AFrame and Three.js. The video used in the example was taken from <a href="https://media.w3.org/2010/05/sintel/">here</a> and image textures from <a href="https://github.com/mrdoob/three.js/tree/master/examples/textures">Three.js repository</a>.
 
 ### **Demo**
 See demo of the component here: [Demo](https://spotlight-texture.glitch.me/)
