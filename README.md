@@ -6,8 +6,8 @@ This is an A-Frame component, which demonstrates spotlight with texture. It can 
 
 ### **Instructions**
 In order to use the component attach "spotlight-texture" to "a-scene". The component has the following attributes: 
-* lightHelper: { type: 'boolean', default: true } - spotlight helper. It helps to see the location and direction of spotlight in the scene.
-* <b>spotlightShadow: { type: 'boolean', default: false } - enables or disables shadow of 3d objects. Requires that objects in scene have "shadow='cast: true'" attribute.
+* <b>lightHelper: { type: 'boolean', default: true }</b> - spotlight helper. It helps to see the location and direction of spotlight in the scene.
+* <b>spotlightShadow: { type: 'boolean', default: false }</b> - enables or disables shadow of 3d objects. Requires that objects in scene have "shadow='cast: true'" attribute.
 * <b>spotlightDynamic: { type: 'boolean', default: false }</b> - Adds spotlight animation (movement). If disabled, spotlight becomes static. 
 * <b>spotlightColor: { type: 'color', default: '#ffffff' }</b> - The color of the spotlight.
 * <b>spotlightIntensity: { type: 'float', default: 10 }</b> - Intensity of the spotlight.
